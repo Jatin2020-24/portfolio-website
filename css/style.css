@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7)url('../image/22.jpg');
+    /* background-color: green; */
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: default;
+}
+
+.text-big{
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.text-small{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.about{
+    height: 75vh;
+    /* background: rgba(0, 0, 0, 0.7)url('../image/about.jpg'); */
+    background-color: gold;
+    background-size: cover;
+    background-blend-mode: lighten;
+}
+
+.about-main{
+    max-width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 140px 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.aboutHeading{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    border-bottom-width: 4px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+
+.aboutContent{
+    font-size: 20px;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+}
+
+/* -------------------Skills SVG Circles Start------------------------------ */
+
+.skills{
+    height: 86vh;
+    /* margin-top: 15%; */
+    background-color: #4169e1;
+}
+
+.heading{
+    display: flex;
+    padding: 100px 30px;
+    width: 30%;
+    justify-content: center;
+    margin: auto;
+    font-size: 42px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+.skillthirdHalf{
+    display: flex;
+    padding: 20px 20px;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+}
+
+.skillTitle{
+    width: 33%;
+    justify-content: center;
+    display: flex;
+}
+
+.skillsChart {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+.single-chart {
+    width: 33%;
+    justify-content: space-around ;
+  }
+  
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+  }
+  
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  
+.circle {
+    fill: none;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+.circular-chart.yellow .circle {
+    /* stroke: #ffd700; */
+    stroke: #191970;
+  }
+
+.percentage {
+    fill: white;
+    font-family: sans-serif;
+    font-size: 0.4em;
+    text-anchor: middle;
+  }
+
+  /*-------------------------------- SVG Circles End------------------------------ */
+
+.experience{
+    height: 65vh;
+    background-color: #000000;
+}
+
+.exp-main p{
+    display: flex;
+    width: 20%;
+    margin: auto;
+    justify-content: center;
+    padding: 70px 20px 60px;
+    font-size: 42px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+
+.expfirstHalf ol{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    color: white;
+    line-height: 35px;
+}
+
+.contact{
+    background-color: white;
+}
+
+.contact-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-heading p{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 70px 20px 60px;
+    font-size: 42px;
+    font-family: 'Karla', sans-serif;
+    color: brown;
+}
+
+.left-sec{
+    display: flex;
+}
+
+.left-sec i{
+    width: 30%;
+}
+
+.left-sec p{
+    width: 30%;
+    padding-left: 22%;
+    padding-top: 15%;
+    font-size: 30px;
+}
+
+.left-sec p a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.text-footer{
+    display: flex;
+    color: white;
+    height: 6.5vh;
+    width: 30%;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    font-size: 18px;
+}
+
+
